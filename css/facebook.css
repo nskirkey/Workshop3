@@ -3,13 +3,22 @@
   position: fixed;
   bottom: 0px;
   right: 20px;
+  /* Applies the given border style to all sides. */
+  border: 1px solid #000;
+  /* Removes the border on the bottom. */
+  border-bottom: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
+
 body {
   padding-top: 60px;
 }
+
 .fb-search {
   width: 395px !important;
 }
+
 /* Style applies to a elements within ul elements with class nav within
    an element with class fb-trending */
 .fb-trending ul.nav a {
@@ -42,4 +51,8 @@ body {
 .fb-trending {
   border-bottom: 1px solid lightgrey;
   margin-bottom: 5px;
+}
+
+.green {
+  color: green;
 }
